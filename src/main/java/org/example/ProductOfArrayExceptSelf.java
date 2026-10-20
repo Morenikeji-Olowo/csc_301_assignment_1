@@ -1,10 +1,8 @@
 package org.example;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class Product_of_array_except_itself {
+public class ProductOfArrayExceptSelf {
 
     public int[] productExceptSelf(int[] numbers) {
         int length_of_array = numbers.length;
@@ -30,7 +28,7 @@ public class Product_of_array_except_itself {
         return result;
     }
     public static void main(String[] args) {
-        Product_of_array_except_itself solver = new Product_of_array_except_itself();
+        ProductOfArrayExceptSelf solver = new ProductOfArrayExceptSelf();
 
         int[] test1 = {1, 2, 3, 4};
         int[] output1 = solver.productExceptSelf(test1);
